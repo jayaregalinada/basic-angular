@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Angular Js</title>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+<!--
+<div ng-controller="HelloController" class="jumbotron">
+    <h1>{{ intro }}</h1>
+</div> -->
+
+
+
+<!-- <div class="container" ng-controller="HelloController">
+    <ul class="list-unstyled">
+        <li ng-repeat="person in people">
+            {{ $index }}) {{ person.name }} <span class="badge">{{ person.age }}</span>
+        </li>
+    </ul>
+</div> -->
+
+<!-- <div class="container" ng-controller="HelloController">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>ACTIVE</th>
+                <th>TOOL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="person in people">
+                <td>{{ person.name }}</td>
+                <td>{{ person.age }}</td>
+                <td>{{ person.active }}</td>
+                <td>
+                    <button type="button" class="btn btn-xs btn-success" ng-click="markAsActive(person)">MARK AS ACTIVE</button>
+                    <button type="button" class="btn btn-xs btn-warning" ng-click="markAsInactive(person)">MARK AS INACTIVE</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <ul class="list-group">
+        <li ng-repeat="person in people | filter:person.active = true | orderBy:'name'" class="list-group-item">
+            {{ person.name }} <span class="badge">{{ person.age }}</span>
+        </li>
+    </ul>
+</div> -->
+
+
+<!-- <ul class="nav nav-pills">
+    <li><a href="#!/">Home</a></li>
+    <li><a href="#!/about">About</a></li>
+</ul> -->
+
+
+
+<main ng-view class="container"></main>
+
+
+
+
+
+
+
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+<script type="text/javascript" src="vendor/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

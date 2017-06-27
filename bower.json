@@ -1,0 +1,18 @@
+{
+  "name": "angular-tutorial",
+  "description": "Angular Basic Tutorial",
+  "main": "index.js",
+  "authors": [
+    "Jay Are Galinada <jayaregalinada@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ]
+}
